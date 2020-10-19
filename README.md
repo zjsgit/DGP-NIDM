@@ -1,10 +1,10 @@
 # DGP-NIDM
 
-Description:
+Description:  
 The development of genetic diseases is closely related to the mutations of disease-related genes. The prediction of the disease-related genes is important to the investigation of the diseases due to high cost and time consumption of biological experiments. Network propagation is a popular strategy for disease-gene prediction in computational biology, but existing methods of this type just focus on the stable solution of dynamics while ignoring the useful information contained in the dynamical process, and it is still a challenge to make full use of the information from various types of biological networks to effectively predict disease-related genes. Therefore, we proposed a framework of network impulsive dynamics on multiplex biological network (NIDM) where the responses of nodes to impulsive signals at specific network nodes are used to identify disease-related genes. We studied four variants of NIDM models and four impulsive dynamical signatures by experimental evaluation in multi-source biological networks (e.g., various protein-protein interactions, gene co-expression and gene semantic similarity), confirmed the excellent performance of NIDM in disease-gene prediction by comparing a series of classical network-based algorithms, and showed the superiority of multiplex network in fusion of multi-source biological networks. For the convenience of experimental scientists, we developed a web server for NIDM, by which the users can easily get the results of disease-related candidate genes by three search patterns (genomic location, cytogenetic location and whole network genome) and subnetwork visualization, enrichment analysis and external links of the genes. NIDM is a protocol for disease-gene prediction integrating different types of biological networks, which may become a very useful computational tool for the study of disease-related genes.
 
-Reference:
-[1] J. Xiang, J.-S. Zhang, M. Li, NIDM: Impulsive dynamics on multiplex biological network for disease-gene prediction, 2020. 
+Reference:  
+[1] J. Xiang, J.-S. Zhang, M. Li, NIDM: Impulsive dynamics on multiplex biological network for disease-gene prediction, 2020.   
 [2] S. Gómez, A. Díaz-Guilera, J. Gómez-Gardeñes, C. J. Pérez-Vicente, Y. Moreno, and A. Arenas, Diffusion Dynamics on Multiplex Networks, 2013 Physical Review Letters 110 028701.
 
 Now the platform (NIDM) is accessible for everyone at http://bioinformatics.csu.edu.cn/DGP/. If you have any questions, please send a email to me(jiashuaizhang@csu.edu.cn). 
