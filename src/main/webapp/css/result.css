@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.web_title{
+	width:1000px;
+	margin:0px auto;
+}
+
+.content{
+	width:940px;
+	
+}
+
+
+/* undo inline form compaction on small screens */
+.container{
+	width:970px;
+	max-width:none !important;
+}
+
+.form-inline .form-control{
+	display:inline-block;
+}
+.form-inline .form-control-static{
+	display:inline-block;
+}
+
+.form-inline .input-group{
+	display:inline-table;
+	vertical-align:middle;
+}
+
+.form-inline .input-group .input-group-addon,
+.form-inline .input-group .input-group-btn,
+.form-inline .input-group .from-control{
+	width:auto;
+}
+
+.form-inline .input-group > .form-control{
+	width:100%;
+}
+
+.form-inline .control-label{
+	margin-bottom:0;
+	vertical-align:middle;
+}
+
+.form-inline .radio,
+.form-inline .checkbox{
+	display:inline-block;
+	margin-top:0;
+	margin-bottom:0;
+	vertical-align:middle;
+}
+
+.form-inline .ratio label,
+.form-inline .checkbox label{
+	padding-left:0px;
+}
+
+.form-inline .radio input[type='radio'],
+.form-inline .checkbox input[type='checkbox']{
+	position:relative;
+	margin-left:0;
+}
+
+.form-inline .has-feedback .form-control-feedback{
+	top:0px;
+}
+
+a{
+	cursor:pointer;
+}
